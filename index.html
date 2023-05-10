@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>GPA Calculate</title>
+  </head>
+  <body>
+
+    <h1>Calculate your GPA</h1>
+
+    <form class="Form1" action="GPA.html" method="get">
+      <input type="number" id="S1" placeholder="Maths" min="0" max="120"><br>
+      <input type="number" id="S2" placeholder="Biology" min="0" max="120"><br>
+      <input type="number" id="S3" placeholder="Physics" min="0" max="130"><br>
+      <input type="number" id="S4" placeholder="Chemistry" min="0" max="110"><br>
+      <input type="number" id="S5" placeholder="English" min="0" max="90"><br>
+      <input type="number" id="S6" placeholder="Programing" min="0" max="120"><br>
+
+      <button type="button" name="button" onclick="GPAResult()">Calculate</button>
+
+    </form>
+
+    <div class="results">
+      <div id="Sum">Sum: </div><br>
+      <div id="percent">Percent: </div><br>
+      <div id="grade">GPA: </div><br>
+    </div>
+
+    <script type="text/javascript" src="gpa.js"></script>
+
+  </body>
+</html>

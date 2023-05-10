@@ -1,0 +1,37 @@
+body{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  color: red;
+}
+.Form1{
+  margin-top: 4rem;
+}
+.Form1 input{
+  margin: 1rem;
+  width: 15rem;
+}
+.Form1 button{
+  color: white;
+  height: 1.5rem;
+  width: 15.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-color: rgb(6, 59, 6);
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.results{
+  position: fixed;
+  margin-top: 15rem;
+  margin-left: -30rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: rgb(6, 59, 6);
+}
